@@ -128,14 +128,14 @@ body{
     }
     
     .intro-social{
-        display: block;
+        display: flex;
          position: absolute; 
             
-          justify-content: space-around;
+          justify-content: center;
           
-         padding-left: 41vw; 
-         margin-top: 14vh;
-        font-size: 4vw;
+         padding-left: 44vw; 
+         margin-top: 10vh;
+        font-size: 6vw;
         
     }
     .intro-social li{
@@ -150,12 +150,10 @@ body{
     .intro-social a:hover .fa-github {
        color:#ff0077;
     }
-    .intro-social a:hover .fa-facebook {
+    
+    .intro-social a:hover .fa-instagram {
         color:#ff0077;
-    }
-    .intro-social a:hover .fa-linkedin {
-        color:#ff0077;
-    }
+    } */
     
 
     /* about *//* about *//* about *//* about *//* about *//* about *//* about */
@@ -181,11 +179,9 @@ body{
     }
     .profileImg{
         width:16vw;
-        height:18vw;
+        height:16vw;
         border-radius:5%;
-        /* border-style: solid;
-        border-width: 10px;
-        border-color: white; */
+        
     }
     .introduction{
         /* padding-left: 3%; */
